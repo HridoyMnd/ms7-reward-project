@@ -8,12 +8,10 @@
         "550 g chicken breast",
         "120 ml soy sauce",
         "200 g basil leaves",
-        "2 cloves garlic, minced",
-        "1 tbsp olive oil",
-        "Salt and pepper to taste"
+        "2 cloves garlic, minced"
       ],
       "preparation_time": "30 minutes",
-      "calories": "450 kcal"
+      "calories": "450 calories"
     },
     {
       "recipe_img": "https://i.ibb.co.com/wyN0RGY/recipe2.jpg",
@@ -24,12 +22,10 @@
         "300 g shrimp",
         "200 g pasta",
         "150 ml heavy cream",
-        "3 cloves garlic, minced",
-        "50 g Parmesan cheese, grated",
-        "2 tbsp butter"
+        "3 cloves garlic, minced"
       ],
       "preparation_time": "25 minutes",
-      "calories": "600 kcal"
+      "calories": "600 calories"
     },
     {
       "recipe_img": "https://i.ibb.co.com/J78ZSm9/recipe3.jpg",
@@ -40,14 +36,10 @@
         "500 g ground beef",
         "120 ml tomato sauce",
         "1 tbsp chili powder",
-        "1 tsp cumin",
-        "8 taco shells",
-        "150 g shredded lettuce",
-        "100 g salsa",
-        "100 g guacamole"
+        "8 taco shells"
       ],
       "preparation_time": "20 minutes",
-      "calories": "500 kcal"
+      "calories": "500 calories"
     },
     {
       "recipe_img": "https://i.ibb.co.com/g6XJ4g8/recipe4.jpg",
@@ -58,13 +50,10 @@
         "300 g tofu, cubed",
         "150 g broccoli",
         "100 g bell peppers",
-        "80 g carrots",
-        "2 tbsp soy sauce",
-        "1 tbsp sesame oil",
-        "1 clove garlic, minced"
+        "2 tbsp soy sauce"
       ],
       "preparation_time": "15 minutes",
-      "calories": "350 kcal"
+      "calories": "350 calories"
     },
     {
       "recipe_img": "https://i.ibb.co.com/2kGgSdQ/reicpe5.jpg",
@@ -74,13 +63,11 @@
       "ingredients": [
         "200 g pizza dough",
         "150 g fresh mozzarella",
-        "100 g tomato sauce",
-        "10 fresh basil leaves",
-        "1 tbsp olive oil",
-        "Salt and pepper to taste"
+        "100 g tomato sauce"
+
       ],
       "preparation_time": "40 minutes",
-      "calories": "700 kcal"
+      "calories": "700 calories"
     },
     {
       "recipe_img": "https://i.ibb.co.com/L9KZqjB/recipe6.jpg",
@@ -91,12 +78,10 @@
         "4 salmon fillets",
         "2 tbsp lemon juice",
         "2 cloves garlic, minced",
-        "1 tbsp olive oil",
-        "1 tsp dried oregano",
-        "Salt and pepper to taste"
+        "1 tbsp olive oil"
       ],
       "preparation_time": "25 minutes",
-      "calories": "400 kcal"
+      "calories": "400 calories"
     }
   ]
   
