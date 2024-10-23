@@ -1,5 +1,4 @@
 
-
 const Recipe = ({recipe, controlOrder}) => {
     const {recipe_img, recipe_name, description, preparation_time, calories, ingredients} = recipe;
     return (
@@ -13,7 +12,7 @@ const Recipe = ({recipe, controlOrder}) => {
             </ul>
             <p>{preparation_time}</p>
             <p>{calories}</p>
-            <button className="border py-2 px-8" onClick={() => controlOrder(recipe)}>click</button>
+            <button className="border border-blue-600 rounded-lg py-2 px-8" onClick={() => controlOrder(recipe)}>Order Now</button>
         </div>
     );
 };

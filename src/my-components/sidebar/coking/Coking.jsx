@@ -1,15 +1,41 @@
 
-
-const Coking = () => {
+const Coking = ({ removedData }) => {
     return (
-        <div className="border p-4 mt-3 text-center">
-            <h2 className="text-2xl font-semibold">Coking: </h2>
-            <hr  className="border mt-3"/>
-            <div className="flex px-5 mt-2">
-                <h4 className="text-lg font-semibold mr-12">Name</h4>
-                <h4 className="text-lg font-semibold mr-8">Time</h4>
-                <h4 className="text-lg font-semibold">Calories</h4>
+        <div className="border border-blue-300 rounded-md p-4 mt-3 text-center">
+            <h2 className="text-2xl font-semibold">Preparaing:{removedData.length} </h2>
+            <hr className="border mb-2 mt-3" />
+            <div class="overflow-x-auto">
+                <table class="">
+                    <thead>
+                        <tr class="bg-gray-100 text-gray-600 uppercase text-sm grid grid-cols-12 rounded-sm">
+                            <th class="col-span-1 text-left"></th>
+                            <th class="col-span-5 text-left ">Name</th>
+                            <th class="col-span-3 text-left">Time</th>
+                            <th class="col-span-2 text-left">Calories</th>
+                            <th class="ml-4 col-span-1 text-left"></th>
+                        </tr>
+                    </thead>
+                </table>
+
             </div>
+            {
+                removedData.map((accept, idx) =>
+                    <div key={idx} className="overflow-x-auto bg-gray-100 hover:bg-gray-300 py-3">
+                        <table className="">
+                            <tbody>
+                                <tr className="grid grid-cols-12 items-center">
+                                    <td className="col-span-1 p-0 text-[14px] text-center">{idx + 1}</td>
+                                    <td className="col-span-5 p-0 text-[14px]">{accept.recipe_name}</td>
+                                    <td className="col-span-3 p-0 text-[14px]">{accept.preparation_time}</td>
+                                    <td className="col-span-3 p-0 text-[14px]">{accept.calories}</td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                )
+            }
         </div>
     );
 };
