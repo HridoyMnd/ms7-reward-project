@@ -1,9 +1,12 @@
+import Coke from "./coke/Coke";
+import Coking from "./coking/Coking";
 
 
-const Sidebar = () => {
+const Sidebar = ({order}) => {
     return (
           <div className="border col-span-1 p-2">
-            <h2>Sidebar</h2>
+           <Coke order = {order}></Coke>
+           <Coking></Coking>
           </div>
     );
 };

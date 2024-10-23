@@ -1,8 +1,7 @@
 
 
 const Recipe = ({recipe, controlOrder}) => {
-    const {recipe_img, recipe_name, description, preparation_time, calories, ingredients} = recipe
-    // console.log(recipe);
+    const {recipe_img, recipe_name, description, preparation_time, calories, ingredients} = recipe;
     return (
         <div className="border p-3 rounded-md">
             <img src={recipe_img} alt=""  className="h-52 w-full rounded-md"/>
