@@ -10,8 +10,8 @@
         "200 g basil leaves",
         "2 cloves garlic, minced"
       ],
-      "preparation_time": "30 minutes",
-      "calories": "450 calories"
+      "preparation_time": "30",
+      "calories": "450"
     },
     {
       "recipe_img": "https://i.ibb.co.com/wyN0RGY/recipe2.jpg",
@@ -24,8 +24,8 @@
         "150 ml heavy cream",
         "3 cloves garlic, minced"
       ],
-      "preparation_time": "25 minutes",
-      "calories": "600 calories"
+      "preparation_time": "25",
+      "calories": "600"
     },
     {
       "recipe_img": "https://i.ibb.co.com/J78ZSm9/recipe3.jpg",
@@ -38,8 +38,8 @@
         "1 tbsp chili powder",
         "8 taco shells"
       ],
-      "preparation_time": "20 minutes",
-      "calories": "500 calories"
+      "preparation_time": "20",
+      "calories": "500"
     },
     {
       "recipe_img": "https://i.ibb.co.com/g6XJ4g8/recipe4.jpg",
@@ -52,8 +52,8 @@
         "100 g bell peppers",
         "2 tbsp soy sauce"
       ],
-      "preparation_time": "15 minutes",
-      "calories": "350 calories"
+      "preparation_time": "15",
+      "calories": "350"
     },
     {
       "recipe_img": "https://i.ibb.co.com/2kGgSdQ/reicpe5.jpg",
@@ -66,8 +66,8 @@
         "100 g tomato sauce"
 
       ],
-      "preparation_time": "40 minutes",
-      "calories": "700 calories"
+      "preparation_time": "40",
+      "calories": "700"
     },
     {
       "recipe_img": "https://i.ibb.co.com/L9KZqjB/recipe6.jpg",
@@ -80,8 +80,8 @@
         "2 cloves garlic, minced",
         "1 tbsp olive oil"
       ],
-      "preparation_time": "25 minutes",
-      "calories": "400 calories"
+      "preparation_time": "25",
+      "calories": "400"
     }
   ]
   

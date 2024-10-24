@@ -1,5 +1,5 @@
 
-const Coking = ({ removedData }) => {
+const Coking = ({ removedData, data }) => {
     return (
         <div className="border border-blue-300 rounded-md p-4 mt-3 text-center">
             <h2 className="text-2xl font-semibold">Preparaing:{removedData.length} </h2>
@@ -25,17 +25,25 @@ const Coking = ({ removedData }) => {
                             <tbody>
                                 <tr className="grid grid-cols-12 items-center">
                                     <td className="col-span-1 p-0 text-[14px] text-center">{idx + 1}</td>
-                                    <td className="col-span-5 p-0 text-[14px]">{accept.recipe_name}</td>
-                                    <td className="col-span-3 p-0 text-[14px]">{accept.preparation_time}</td>
-                                    <td className="col-span-3 p-0 text-[14px]">{accept.calories}</td>
+                                    <td className="col-span-5 p-0 text-[14px] text-left">{accept.recipe_name}</td>
+                                    <td className="col-span-3 p-0 text-[14px] text-left">{accept.preparation_time} Minutes</td>
+                                    <td className="col-span-3 p-0 text-[14px] text-left">{accept.calories} Calories</td>
 
                                 </tr>
                             </tbody>
                         </table>
                     </div>
-                    
+
                 )
             }
+            <table class="bg-gray-300 w-full">
+                <thead className="flex justify-end">
+                    <tr class="text-left mr-3">
+                        <th class="block">TOTAl TIME:</th>
+                        <th class="block">TOTAL CALORIES:</th>
+                    </tr>
+                </thead>
+            </table>
         </div>
     );
 };

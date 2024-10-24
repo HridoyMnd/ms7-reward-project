@@ -1,9 +1,10 @@
 
-const Coke = ({ order, setOrder, setRemovedData }) => {
+const Coke = ({ order, setOrder, setRemovedData,setData }) => {
     const minus = (recipe) => {
         const newOrder = order.filter((item) => item.recipe_id !== recipe.recipe_id);
         setOrder(newOrder);
         setRemovedData(prev => [...prev, recipe]);
+        setData(recipe)
     };
 
     return (
@@ -32,8 +33,8 @@ const Coke = ({ order, setOrder, setRemovedData }) => {
                                 <tr className="grid grid-cols-12 items-center">
                                     <td className="col-span-1 p-0 text-[14px] text-center">{idx + 1}</td>
                                     <td className="col-span-4 p-0 text-[14px]">{recipe.recipe_name}</td>
-                                    <td className="col-span-2 p-0 text-[14px]">{recipe.preparation_time}</td>
-                                    <td className="col-span-2 p-0 text-[14px]">{recipe.calories}</td>
+                                    <td className="col-span-2 p-0 text-[14px]">{recipe.preparation_time} Minutes</td>
+                                    <td className="col-span-2 p-0 text-[14px]">{recipe.calories} Calories</td>
                                     <td className="col-span-3 p-0 text-center border">
                                         <button
                                             onClick={() => minus(recipe)}
