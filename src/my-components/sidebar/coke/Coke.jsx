@@ -1,10 +1,9 @@
 
-const Coke = ({ order, setOrder, setRemovedData,setData }) => {
+const Coke = ({ order, setOrder, setRemovedData }) => {
     const minus = (recipe) => {
         const newOrder = order.filter((item) => item.recipe_id !== recipe.recipe_id);
         setOrder(newOrder);
         setRemovedData(prev => [...prev, recipe]);
-        setData(recipe)
     };
 
     return (

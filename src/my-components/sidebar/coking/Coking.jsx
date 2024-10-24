@@ -1,5 +1,12 @@
 
-const Coking = ({ removedData, data }) => {
+const Coking = ({ removedData}) => {
+    let time = 0;
+    let calories = 0;
+    removedData.forEach(element => {
+        time += parseInt(element.preparation_time)
+        calories += parseInt(element.calories)
+        
+    });
     return (
         <div className="border border-blue-300 rounded-md p-4 mt-3 text-center">
             <h2 className="text-2xl font-semibold">Preparaing:{removedData.length} </h2>
@@ -36,11 +43,11 @@ const Coking = ({ removedData, data }) => {
 
                 )
             }
-            <table class="bg-gray-300 w-full">
+            <table class="bg-gray-300 w-full rounded-tr-md">
                 <thead className="flex justify-end">
-                    <tr class="text-left mr-3">
-                        <th class="block">TOTAl TIME:</th>
-                        <th class="block">TOTAL CALORIES:</th>
+                    <tr class="text-left mr-3 text-gray-700">
+                        <th class="block">TOTAl TIME: <span className="text-red-900">{time} Minutes</span></th>
+                        <th class="block">TOTAL CALORIES: <span className="text-red-900"> {calories} Calories</span></th>
                     </tr>
                 </thead>
             </table>
